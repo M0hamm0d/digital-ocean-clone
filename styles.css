@@ -7,7 +7,7 @@
     header{
         display: none;
     }
-    .header-2{
+    .mobile-nav{
         display: flex; 
         max-width: 100%;
         padding: 0px 1rem;
@@ -17,11 +17,11 @@
         z-index: 10000;
         background-color: white;
     }
-    .header-2 .btn{
+    .mobile-nav .btn{
         padding: 16px 0px;
         margin-left: auto;
     }
-    .header-2 button{
+    .mobile-nav button{
         display: flex;
         height: 40px;
         justify-content: center;
@@ -32,33 +32,33 @@
         outline: none;
         flex-direction: column;
     }
-    .header-2 button::before{
+    .mobile-nav button::before{
         display: block;
         content: '';
         width: 24px;
         height: 2px;
         background-color: rgb(36, 51, 90);
     }
-    .header-2 button::after{
+    .mobile-nav button::after{
         content: '';
         display: block;
         width: 24px;
         height: 2px;
         background-color: rgb(36, 51, 90);
     }
-    .sec-1{
+    .getting-started-template-container{
         position: relative;
         overflow: hidden;
         background-color: #F9FAFE;
     }
-    .sec-1 .div{
+    .getting-started-template-container .getting-started-template{
         max-width: 75rem;
         width: 100%;
         margin: 0 auto;
         display: flex;
         padding: 64px 1rem 24px;
     }
-    .div .community{
+    .getting-started-template .digitalocean-community{
         max-width: 864px;
         width: 100%;
         display: flex;
@@ -67,19 +67,19 @@
         text-align: center;
         margin: 0 auto;
     }
-    .community .cv{
+    .digitalocean-community .heart-in-circles-svg{
         display: none;
     }
-    .community .qnv{
+    .digitalocean-community .qna-svg{
         display: none;
     }
-    .community .wel{
+    .digitalocean-community .get-started{
         display: flex;
         flex-direction: column;
     }
-    .wel .come{
+    .get-started .digitalocean-about{
     }
-    .community .wel .come h1{
+    .digitalocean-community .get-started .digitalocean-about h1{
         margin: .67em auto;
         color: rgb(8, 27, 75);
         font-size: 32px;
@@ -94,7 +94,7 @@
         font-family: 'Epilogue', sans-serif;
         color: rgb(8, 27, 75);
     }
-    .community .wel .come p{
+    .digitalocean-community .get-started .digitalocean-about p{
         font-size: 16px;
         width: 100%;
         margin: 0 auto;
@@ -103,7 +103,7 @@
         line-height: 28px;
         font-family: 'Inter', sans-serif;
     }
-    .community .wel .page{
+    .digitalocean-community .get-started .jumpin-btn{
         margin-top: 76px;
         background-color: white;
         padding: 24px;
@@ -118,7 +118,7 @@
         position: relative; 
         z-index: 100;
     }
-    .page p{
+    .jumpin-btn p{
         color: rgb(8, 27, 75);
         font-weight: 500;
         line-height: 36px;
@@ -126,17 +126,17 @@
         font-family: 'Inter', sans-serif;
         z-index: 100;
     }
-    .oca{
+    .oca-svg{
         display: none;
     }
-    .div-1{
+    .introduction-container{
         padding-top: 64px;
     }
-    .dig{
+    .intro-dig{
         z-index: 10;
         padding: 64px 0px;
     }
-    .div-1 .introduction{
+    .introduction-container .introduction{
         display: flex;
         flex-direction: column;
         gap: 32px;
@@ -144,7 +144,7 @@
         padding: 0 45px;
         margin: 0 auto;
     }
-    .introduction .cloud{
+    .introduction .intro-cloud{
         background-color: #b5f6ff;
         display: flex;
         flex: 1;
@@ -152,26 +152,26 @@
         padding: 16px;
         margin-bottom: 32px;
     }
-    .cloud .cc, .dig .cc{
+    .intro-cloud div, .intro-dig div{
         display: flex;
         flex-direction: column;
     }
-    .cloud img{
+    .intro-cloud img{
         width: 48px;
         height: 48px;
         margin-right: 16px;
     }
-    .cloud .cc h4, .dig .cc h4{
+    .intro-cloud div h4, .intro-dig div h4{
         font-size: 18px;
         line-height: 1.4;
         margin: 0 0 8px;
         /* white-space: nowrap; */
     }
-    .cc p{
+    .intro-cloud div p{
         font-family: 'Inter', sans-serif;
         line-height: 24px;
     }
-    .introduction .dig{
+    .introduction .intro-dig{
         flex: 1;
         background-color: #b5f6ff;
         display: flex;
@@ -179,16 +179,16 @@
         padding: 16px;
         margin-bottom: 32px;
     }
-    .dig img{
+    .inro-dig img{
         width: 48px;
         height: 48px;
         margin-right: 16px;
     }
-    .tt{
+    .last-child{
         font-family: 'JetBrains Mono', monospace;
         color: #0069ff;
     }
-    .div-2{
+    .other-intro{
         display: flex;
         flex-direction: column;
         gap: 32px;
@@ -196,7 +196,7 @@
         padding: 0 45px;
         margin: 0 auto;
     }
-    .div-2 .intro{
+    .other-intro .intro{
         gap: 32px;
         background-color: #cee0fa;
         flex: 1;
@@ -204,14 +204,14 @@
         margin-bottom: 32px;
         border-radius: 12px;
     }
-    .intro h4{
+    .other-intro h4{
         line-height: 1.4;
     }
-    .div-2 .intro p{
+    .other-intro .intro p{
         line-height: 24px;
         font-family: 'Inter', sans-serif;
     }
-    .div-3{
+    .signup-bonus{
         background: linear-gradient(rgb(155, 98, 255) -6.58%, rgb(102, 23, 239) 132.24%);
         max-width: 1088px;
         margin: 0px  45px 32px;
@@ -226,50 +226,50 @@
         justify-content: center;
         margin-bottom: 64px;
     }
-    .div-3 a{
+    .signup-bonus a{
         color: white;
     }
-    .sec-2{
+    .tutorial-container{
         padding-bottom: 64px;
     }
-    .sec-2 svg{
+    .tutorial-container svg{
         display: flex;
         width: 100%;
         height: 54px;
     }
-    .sec-2 .tuto{
+    .tutorial-container .tutorial-section{
         background-color: rgb(239, 242, 251);
         padding: 64px 16px;
         line-height: 1.4;
     }
-    .tuto .rial{
+    .tutorial-section .tutorial{
         max-width: 74rem;
         width: 100%;
         margin: 0px auto;
         display: flex;
         flex-direction: column;
     }
-    .rial h2{
+    .tutorial h2{
         margin: 0px auto 8px;
         font-size: 40px;
     }
-    .rial h5{
+    .tutorial h5{
         font-size: 16px;
         font-weight: 400;
         margin: 0px auto 8px;
     }
-    .rial a{
+    .tutorial a{
         text-decoration: none;
         margin: 24px auto 64px;
     }
-    .rial h4{
+    .tutorial h4{
         margin: 0 auto 32px;
     }
-    .sec-2 .TutoriaL{
+    .tutorial-container .tutorial-card-container{
         display: grid;
         gap: 32px;
     }
-    .TutoriaL .TUT{
+    .tutorial-card-container .tutorial-card{
     background: rgb(255, 255, 255);
     border-radius: 16px;
     box-shadow: rgba(0, 44, 155, 0.15) 0px 6px 20px -6px;
@@ -278,35 +278,35 @@
     padding: 24px 32px;
     transition: box-shadow 0.4s ease 0s, transform 0.4s ease 0s;
     }
-    .TUT:hover{
+    .tutorial-card:hover{
         transform: translatey(-5px);
     }
-    .TUT .ty{
+    .tutorial-card .ty{
         margin-top: 8px;
         letter-spacing: 1px;
         font-size: 14px;
         font-weight: 800;
     }
-    .TUT .p1{
+    .tutorial-card .p1{
         font-family: 'Epilogue', sans-serif;
         font-weight: 500;
         font-size: 18px;
         line-height: 28px;
     }
-    .TUT .time{
+    .tutorial-card .time{
         color: rgb(138, 150, 181);
         margin: 16px 0 0;
         line-height: 1.6;
         font-weight: 400;
     }
-    .sec-2 .svg {
+    .tutorial-container .svg {
         transform: rotate(180deg);
     }
-    .sec-3{
+    .get-involved-container{
         padding: 64px 0;
         background-color: #F9FAFE;
     }
-    .sec-3 .SEC-3{
+    .get-involved-container .get-involved{
         display: flex;
         flex-direction: column;
         margin: 64px 0px;
@@ -314,38 +314,38 @@
         margin: 0 auto;
         padding: 0 16px;
     }
-    .SEC-3 h2{
+    .get-involved h2{
         font-size: 40px;
         margin: 0px auto 64px;
     }
-    .SEC-3 h5{
+    .get-involved h5{
         font-weight: 400;
         margin: 0 auto;
         font-size: 16px;
         margin-bottom: 8px;
     }
-    .SEC-3 .write{
+    .get-involved .write{
         display: flex;
         flex-direction: column;
     }
-    .write .for{
+    .involve-card-container .involve-card{
         display: flex;
         flex-direction: column;
         padding: 0 0 32px;
         margin-bottom: 32px;
     }
-    .for img{
+    .involve-card img{
         width: 64px;
         height: 64px;
         margin: 0 auto;
     }
-    .for h4{
+    .involve-card h4{
         margin: 16px auto 8px;
         font-size: 24px;
         text-align: center;
         line-height: 1.4;
     }
-    .for p{
+    .involve-card p{
         text-align: center;
         font-family: 'Inter', sans-serif;
         margin: 0 0 24px;
@@ -353,15 +353,15 @@
         line-height: 24px;
 
     }
-    .for a{
+    .involve-card a{
         text-align: center;
         text-decoration: none;
     }
-    .sec-4{
+    .favourite-topic-container{
         padding: 64px 0;
         background-color: #F9FAFE;
     }
-    .sec-4 .SEC-4{
+    .favourite-topic-container .favourite-topic{
         display: flex;
         flex-direction: column;
         margin: 64px 0px;
@@ -369,31 +369,31 @@
         margin: 0 auto;
         padding: 0;
     }
-    .SEC-4 h2{
+    .favourite-topic h2{
         font-size: 40px;
         text-align: center;
         margin: 0px auto 64px;
     }
-    .SEC-4 h5{
+    .favourite-topic h5{
         font-weight: 400;
         margin: 0 auto;
         font-size: 16px;
         margin-bottom: 8px;
         text-align: center;
     }
-    .sec-4 a{
+    .favourite-topic-container a{
         text-align: center;
         text-decoration: none;
         margin: 24px auto 64px;
     }
-    .nn{
+    .topic-card-container{
         display: flex;
         flex-wrap: wrap;
         max-width: 1100px;
         margin: 0 auto;
         justify-content: center;
     }
-    .nn .learn{
+    .topic-card-container .topic-card{
         display: flex;
         background-color: rgb(255, 255, 255);
         border-radius: 16px;
@@ -409,28 +409,28 @@
         font-family: 'Inter', sans-serif;
         align-items: center;
     }
-    .nn img {
+    .topic-card-container img {
         margin-right: 32px;
     }
-    .learn:hover{
+    .topic-card:hover{
         transform: translateY(-5px);
     }
-    .learn .ll{
+    .course-name>*:first-child{
         font-size: 16px;
         line-height: 22px;
         font-weight: 500;
     }
-    .learn .uu{
+    .course-name>*:not(:first-child){
         font-size: 24px;
         line-height: 34px;
         font-weight: 600;
     }
-    .Section5 .H2{
+    .looking-for-container .looking-for{
         background-color: rgb(239, 242, 251);
         padding: 10px 0;
         margin: 0;
         padding: 64px 20px
-    } .Section5 h2{
+    } .looking-for-container h2{
         text-align: center;
         font-size: 40px;
         margin: 0px auto 64px;
@@ -498,49 +498,49 @@
         height: auto;
         margin-bottom: 0px;
     }
-    .sec-6{
+    .community-content-container{
         background-color: #F9FAFE;
     }
-    .SEC-6{
+    .community-content{
         padding: 64px 16px;
         margin: 0 auto;
     }
-    .SEC-6 h2{
+    .community-content h2{
         font-size: 40px;
         margin: 0 auto 64px;
         text-align: center;
         max-width: 1000px;;
         line-height: 56px;
     }
-    .SEC-6 .sign{
+    .community-content .signup-form{
         display: flex;
         flex-direction: column;
     }
-    .sign h4{
+    .signup-form h4{
         font-size: 18px;
         line-height: 34px;
         font-weight: 600;
         margin: 0 0 8px;
         text-align: center;
     }
-    .sign p{
+    .signup-form p{
         font-family: 'Inter', sans-serif;
         line-height: 22px;
         font-size: 17px;
         color: #4d5b7c;
     }
-    .sign .up{
+    .signup-form .newsletter-infrastructure{
         padding: 16px;
         margin: 0px 0px 32px 0px;
         background: white;
         border-radius: 8px;
         box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
     }
-    .up .input{
+    .newsletter-infrastructure .input{
         display: flex;
         flex-direction: column;
     }
-    .up input{
+    .newsletter-infrastructure input{
         padding: 12px 24px;
         border-radius: 8px;
         width: 100%;
@@ -560,43 +560,43 @@
         font-weight: 700;
         border-radius: 8px;
     }
-    .sign .us{
+    .signup-form .socialmedia-pages{
         max-width: 528px;
         padding: 16px;
         background: #9fddff;
         border-radius: 8px;
         box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
     }
-    .us .accounts{
+    .socialmedia-pages .accounts{
         margin: 16px 0 0;
     }
-    .us .accounts a{
+    .socialmedia-pages .accounts a{
         color: #4d5b7c;
         text-decoration: none;
     }
-    .us .accounts a:hover{
+    .socialmedia-pages .accounts a:hover{
         color: black;
         transition: color .2s;
     }
-    .sec-7{
+    .knowledge-aplication-container{
         background-color: #F9FAFE;
     }
-    .SEC-7{
+    .knowledge-aplication{
         padding: 64px 20px;
         margin: 0;
     }
-    .SEC-7 .cards{
+    .knowledge-aplication .knowledge-aplication-card{
         display: flex;
         flex-direction: column;
     }
-    .SEC-7 h2{
+    .knowledge-aplication h2{
         font-size: 40px;
         margin: 0 auto 64px;
         text-align: start;
         max-width: 1000px;;
         line-height: 56px;
     }
-    .cards img{
+    .knowledge-aplication-card img{
         width: 100%;
         height: 73%;
         margin-bottom: 32px;
@@ -621,35 +621,35 @@
     .card a{
         text-decoration: none;
     }
-    .sec-8{
+    .webhosting-container{
         display: none;
     }
-    .sec-9{
+    .appreciation-message-container{
         padding: 120px 20px;
         background-color: #F9FAFE;
     }
-    .SEC-9{
+    .appreciation-message{
         background-image: url(https://www.digitalocean.com/_next/static/media/thank-you-banner.c4f5d24d.svg);
         background-color: #75EEFE;
         border-radius: 16px;
         padding: 64px 20px;
         margin: 64px auto;
     }
-    .SEC-9 h2{
+    .appreciation-message h2{
         font-size: 40px;
         line-height: 56px;
         text-align: center;
     }
-    .sec-10{
+    .opportunity-section-container{
         background-color: #F9FAFE;
     }
-    .SEC-10{
+    .opportunity-section{
         max-width: 1136px;
         width: 100%;
         margin: 0 auto;
         gap: 32px;
     }
-    .SEC-10 .mm{
+    .opportunity-section .opportunity-card{
         display: flex;
         flex-direction: column;
         border-radius: 24px;
@@ -657,10 +657,10 @@
         box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
         margin-bottom: 30px;
     }
-    .SEC-10 img{
+    .opportunity-section img{
         border-radius: 0;
     }
-    .mm .good{
+    .opportunity-card .good{
         padding: 32px 40px;
     }
     .good h5{
@@ -678,10 +678,10 @@
     .good .tt{
         margin-top: 24px;
     }
-    .sec-11{
+    .community-and-product-section{
         background-color: #F9FAFE;
     }
-    .SEC-11{
+    .community-and-product{
         max-width: 1136px;
         width: 100%;
         padding: 0px 24px;
@@ -689,16 +689,16 @@
         display: flex;
         flex-direction: column;
     }
-    .SEC-11 .se{
+    .community-section, .product-section{
         margin: 64px auto 0;
     }
-    .se h6{
+    .community-section h6, .product-section h6{
         text-align: center;
         font-size: 20px;
         line-height: 28px;
         font-weight: 500;
     }
-    .se .links{
+    .community-section .links, .product-section .links{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -719,14 +719,14 @@
     .links a{
         color: #0069ff;
     }
-    .sec-12{
+    .developer-cloud-container{
         padding: 128px 0px;
         background-color: #F9FAFE;
     }
-    .SEEC-12{
+    .developer-cloud{
         background-color: #1433dc;
     }
-    .SEC-12{
+    .about-developer-cloud{
         display: grid;
         grid-template-columns: repeat(2, minmax(0px,1fr));
         color: white;
@@ -736,36 +736,36 @@
         gap: 32px;
         align-items: end;
     }
-    .wel{
+    .developer-cloud-text{
         display: flex;
         align-items: center;
     }
-    .Wel h4{
+    .developer-cloud-text h4{
         font-weight: 600;
         font-size: 24px;
         line-height: 32px;
         color: #ffffff;
     }
-    .Wel p{
+    .developer-cloud-text p{
         font-family: 'Inter', sans-serif;
         margin: 8px 0px 24px;
         line-height: 24px;
     }
-    .Wel a{
+    .developer-cloud-text a{
         color: #ffffff;
         text-decoration: none;
     }
-    .sec-12 .imgg img{
+    .developer-cloud-container .developer-cloud-img img{
         width: 124px;
         height: 68.75px;
         border-radius: 16px 16px 0 0;
     }
-    .SEEC-13{
+    .start-for-free-container{
         max-width: 1136px;
         margin: 0 auto;
         padding: 120px 24px 0;
     }
-    .SEC-13{
+    .start-for-free{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -774,19 +774,19 @@
         border-radius: 24px;
         box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
     }
-    .SEC-13 h5{
+    .start-for-free h5{
         font-weight: 700;
         font-size: 20px;
         line-height: 28px;
         margin-bottom: 8px;
     }
-    .SEC-13 .and{
+    .start-for-free .signup-token{
         font-size: 16px;
         font-family: 'Inter',sans-serif;
         max-width: 500px;
         line-height: 24px;
     }
-    .SEC-13 .a{
+    .start-for-free .get-started-btn{
         display: flex;
         justify-content: center;
         align-items: end;
@@ -794,7 +794,7 @@
         border-radius: 20px;
         margin: 24px 0px;
     }
-    .SEC-13 a{
+    .start-for-free a{
         display: flex;
         align-items: center; 
         justify-content: flex-end;
@@ -809,7 +809,7 @@
     footer{
         display: none;
     }
-    .footer-2{
+    .copyrightXsocial-media-handle{
         display: flex;
         flex-direction: column;
         max-width: 1136px;
@@ -817,7 +817,7 @@
         padding: 0 24px 80px;
         background-color: #F9FAFE;
     }
-    .footer-2 .llc{
+    .copyrightXsocial-media-handle .copyright{
         display: flex;
         align-items: center;
         flex-flow: column;
@@ -827,19 +827,19 @@
         color: #4d5b7c;
         margin-bottom: 32px;
     }
-    .llc img{
+    .copyright img{
         display: inline;
     }
-    .llc a{
+    .copyright a{
         text-decoration: none;
         color: #4d5b7c;
         font-family: 'Inter', sans-serif;
     }
-    .ACcounts {
+    .social-media-handle {
         display: flex;
         gap: 16px;
     }
-    .ACcounts a{
+    .social-media-handle a{
         color: #4d5b7c;
         text-decoration: none;
     }
@@ -854,76 +854,76 @@
         top: 0;
         z-index: 999;
     }
-    .header{
+    .header-styles{
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-    .header .Discover{
+    .header-styles .top-nav{
         display: flex;
         justify-content: space-between;
     }
-    .isv p{
+    .about-isvs p{
         font-size: 14px;
     }
-    .Discover .Blog{
+    .top-nav .isvs-navigation{
         display: flex;
         gap: 16px;
     }
-    .header .Digital{
+    .header-styles .primary-nav{
         display: flex;
     }
-    .digital .product {
+    .primary-nav-container .product {
         display: flex;
     }
-    .product a{
-        display: flex;
-        align-items: center;
-    }
-    .log a{
+    .digitalocean-nav a{
         display: flex;
         align-items: center;
     }
-    .digital .log {
+    .enter-digitalocean a{
+        display: flex;
+        align-items: center;
+    }
+    .primary-nav-container .log {
         display: flex;
     }
     .arrow{
         display: flex;
         transform: rotate(90deg);
     }
-    .discover{
+    .top-nav-container{
         background-color: #081b4b;
         padding: 2px 0;
     }
-    .Discover,.Digital{
+    .top-nav,.primary-nav{
         max-width: 74rem;
         width: 100%;
         margin: 0 auto;
         color: white;
         padding: 8px 0px;
     }
-    .Discover .Blog a{
+    .top-nav .isvs-navigation a{
         text-decoration: none;
         color: white;
         gap: 16px;
         font-size: 14px;
     }
-    .digital{
+    .primary-nav-container{
         background-color: #F9FAFE;
         border-bottom: 1px solid rgb(227, 232, 244);
         /* padding: 8px 0; */
     }
-    .digital .Text{
+    .primary-nav-container .digitalocean-logo{
         display: flex;
         align-items: center;
         height: 55px;
     }
-    .digital .product{
+    .primary-nav-container .digitalocean-nav{
         display: flex;
         gap: 8px;
         margin-left: 32px;
     }
-    .product a{
+    .digitalocean-nav a{
         padding: 12px 8px;
         display: flex;
         height: 46px;
@@ -934,29 +934,30 @@
         font-weight: 500;
         text-decoration: none;
     }
-    .product a:hover{
+    .digitalocean-nav a:hover{
         background-color: #e3e8f4;
         border-radius: 8px;
     }
-    .Digital .log{
+    .primary-nav .enter-digitalocean{
         margin-left: auto;
         gap: 8px;
+        display: flex;
     }
-    .log  a{
+    .enter-digitalocean  a{
         gap: 8px;
         height: 46px;
         margin-top: 5px;
         color: rgb(36, 51, 90);
         text-decoration: none;
     }
-    .log .login{
+    .enter-digitalocean .login{
         padding: 0 20px;
     }
-    .log .login:hover{
+    .enter-digitalocean .login:hover{
         background-color: #e3e8f4;
         border-radius: 8px;
     }
-    .log .signup{
+    .enter-digitalocean .signup{
         padding: 0 20px;
         background-color: rgb(0, 105, 255);
         border-radius: 8px;
@@ -965,12 +966,12 @@
         height: 40px;
         margin-top: 8px;
     }
-    .Tuto{
+    .subnav-container{
         border-bottom: 1px solid rgb(227, 232, 244);
         color: #4d5b7c;
         background-color: white;
     }
-    .tutorial{
+    .subnav{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -979,7 +980,7 @@
         margin: 0 auto;
         height: 60px;
     }
-    .tutorial .question{
+    .subnav .question{
         display: flex;
         gap: 24px;
     }
@@ -990,7 +991,7 @@
     .question a:hover{
         color: #0069ff;
     }
-    .headlast{
+    .search-communities{
         display: flex;
         align-self: center;
         padding: 10px 16px;
@@ -1000,22 +1001,22 @@
         gap: 10px;
         color: #5b6987;
     }
-    .header-2{
+    .mobile-nav{
         display: none;
     }
-    .sec-1{
+    .getting-started-template-container{
         position: relative;
         overflow: hidden;
         background-color: #F9FAFE;
     }
-    .sec-1 .div{
+    .getting-started-template-container .getting-started-template{
         max-width: 75rem;
         width: 100%;
         margin: 0 auto;
         display: flex;
         padding: 0 0 120px;
     }
-    .div .community{
+    .getting-started-template .digitalocean-community{
         max-width: 864px;
         width: 100%;
         display: flex;
@@ -1024,24 +1025,24 @@
         text-align: center;
         margin: 0 auto;
     }
-    .community .cv{
+    .digitalocean-community .heart-in-circles-svg{
         display: flex;
         position: absolute;
         left: -500px;
         top: -28px;
     }
-    .community .qnv{
+    .digitalocean-community .qna-svg{
         display: flex;
         position: absolute;
         right: -500px;
         top: -220px;
         overflow-x: hidden; 
     }
-    .community .wel{
+    .digitalocean-community .get-started{
         display: flex;
         flex-direction: column;
     }
-    .community .wel .come h1{
+    .digitalocean-community .get-started .digitalocean-about h1{
         margin: .67em auto;
         color: rgb(8, 27, 75);
         font-size: 60px;
@@ -1054,7 +1055,7 @@
         font-family: 'Epilogue', sans-serif;
         color: rgb(8, 27, 75);
     }
-    .community .wel .come p{
+    .digitalocean-community .get-started .digitalocean-about p{
         font-size: 18px;
         width: 450px;
         margin: 0 auto;
@@ -1063,7 +1064,7 @@
         line-height: 28px;
         font-family: 'Inter', sans-serif;
     }
-    .community .wel .page{
+    .digitalocean-community .get-started .jumpin-btn{
         margin-top: 76px;
         background-color: white;
         padding: 24px;
@@ -1079,7 +1080,7 @@
         position: relative; 
         z-index: 100;
     }
-    .page p{
+    .jumpin-btn p{
         color: rgb(8, 27, 75);
         font-weight: 500;
         line-height: 36px;
@@ -1087,21 +1088,21 @@
         font-family: 'Inter', sans-serif;
         z-index: 100;
     }
-    .oca{
+    .oca-svg{
         display: flex;
         position: absolute;
         right: 0;
         bottom: 497px;
         z-index: 1;
     }
-    .div-1{
+    .introduction-container{
         padding-top: 64px;
     }
-    .dig{
+    .intro-dig{
         z-index: 10;
         padding: 64px 0px;
     }
-    .div-1 .introduction{
+    .introduction-container .introduction{
         display: flex;
         flex-direction: row;
         gap: 32px;
@@ -1109,7 +1110,7 @@
         padding: 0 45px;
         margin: 0 auto;
     }
-    .introduction .cloud{
+    .introduction .intro-cloud{
         background-color: #b5f6ff;
         display: flex;
         flex: 1;
@@ -1117,20 +1118,20 @@
         padding: 40px;
         margin-bottom: 32px;
     }
-    .cloud img{
+    .intro-cloud img{
         width: 56px;
         height: 64px;
         margin-right: 32px;
     }
-    .cloud .cc h4{
+    .intro-cloud div h4{
         font-size: 24px;
         margin: 0 0 8px;
         /* white-space: nowrap; */
     }
-    .cc p{
+    .intro-cloud div p{
         font-family: 'Inter', sans-serif;
     }
-    .introduction .dig{
+    .introduction .intro-dig{
         flex: 1;
         background-color: #b5f6ff;
         display: flex;
@@ -1138,21 +1139,21 @@
         padding: 40px;
         margin-bottom: 32px;
     }
-    .dig img{
+    .intro-dig img{
         width: 56px;
         height: 64px;
         margin-right: 32px;
     }
-    .dig .cc h4{
+    .intro-dig div h4{
         font-size: 22px;
         margin: 0 0 8px;
         /* white-space: nowrap; */
     }
-    .tt{
+    .last-child{
         font-family: 'JetBrains Mono', monospace;
         color: #0069ff;
     }
-    .div-2{
+    .other-intro{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1161,7 +1162,7 @@
         padding: 0 45px;
         margin: 0 auto;
     }
-    .div-2 .intro{
+    .other-intro .intro{
         gap: 32px;
         background-color: #cee0fa;
         flex: 1;
@@ -1169,10 +1170,10 @@
         margin-bottom: 32px;
         border-radius: 12px;
     }
-    .div-2 .intro p{
+    .other-intro .intro p{
         font-family: 'Inter', sans-serif;
     }
-    .div-3{
+    .signup-bonus{
         background: linear-gradient(rgb(155, 98, 255) -6.58%, rgb(102, 23, 239) 132.24%);
         max-width: 1088px;
         margin: 100px auto 0px;
@@ -1187,51 +1188,51 @@
         justify-content: center;
         margin-bottom: 64px;
     }
-    .div-3 a{
+    .signup-bonus a{
         color: white;
     }
-    .sec-2{
+    .tutorial-container{
         padding-bottom: 64px;
     }
-    .sec-2 svg{
+    .tutorial-container svg{
         display: flex;
         width: 100%;
         height: 54px;
     }
-    .sec-2 .tuto{
+    .tutorial-container .tutorial-section{
         background-color: rgb(239, 242, 251);
         padding: 64px 0;
         line-height: 1.4;
     }
-    .tuto .rial{
+    .tutorial-section .tutorial{
         max-width: 74rem;
         width: 100%;
         margin: 0px auto;
         display: flex;
         flex-direction: column;
     }
-    .rial h2{
+    .tutorial h2{
         margin: 0px auto 8px;
         font-size: 40px;
     }
-    .rial h5{
+    .tutorial h5{
         font-size: 16px;
         font-weight: 400;
         margin: 0px auto 8px;
     }
-    .rial a{
+    .tutorial a{
         text-decoration: none;
         margin: 24px auto 64px;
     }
-    .rial h4{
+    .tutorial h4{
         margin: 0 auto 32px;
     }
-    .sec-2 .TutoriaL{
+    .tutorial-container .tutorial-card-container{
         display: grid;
         gap: 32px;
         grid-template-columns: repeat(auto-fit, minmax(384px, 1fr))
     }
-    .TutoriaL .TUT{
+    .tutorial-card-container .tutorial-card{
     background: rgb(255, 255, 255);
     border-radius: 16px;
     box-shadow: rgba(0, 44, 155, 0.15) 0px 6px 20px -6px;
@@ -1240,72 +1241,72 @@
     padding: 24px 32px;
     transition: box-shadow 0.4s ease 0s, transform 0.4s ease 0s;
     }
-    .TUT:hover{
+    .tutorial-card:hover{
         transform: translatey(-5px);
     }
-    .TUT .ty{
+    .tutorial-card .ty{
         margin-top: 8px;
         letter-spacing: 1px;
         font-size: 14px;
         font-weight: 800;
     }
-    .TUT .p1{
+    .tutorial-card .p1{
         font-family: 'Epilogue', sans-serif;
         font-weight: 500;
         font-size: 18px;
         line-height: 28px;
     }
-    .TUT .time{
+    .tutorial-card .time{
         color: rgb(138, 150, 181);
         margin: 16px 0 0;
         line-height: 1.6;
         font-weight: 400;
     }
-    .sec-2 .svg {
+    .tutorial-container .svg {
         transform: rotate(180deg);
     }
-    .sec-3{
+    .get-involved-container{
         padding: 64px 0;
         background-color: #F9FAFE;
     }
-    .sec-3 .SEC-3{
+    .get-involved-container .get-involved{
         display: flex;
         flex-direction: column;
         margin: 64px 0px;
         max-width: 74rem;
         margin: 0 auto;
     }
-    .SEC-3 h2{
+    .get-involved h2{
         font-size: 40px;
         margin: 0px auto 64px;
     }
-    .SEC-3 h5{
+    .get-involved h5{
         font-weight: 400;
         margin: 0 auto;
         font-size: 16px;
         margin-bottom: 8px;
     }
-    .SEC-3 .write{
+    .get-involved .involve-card-container{
         display: flex;
         flex-direction: row;
     }
-    .write .for{
+    .involve-card-container .involve-card{
         display: flex;
         flex-direction: column;
         margin-right: 32px;
     }
-    .for img{
+    .involve-card img{
         width: 64px;
         height: 64px;
         margin: 0 auto;
     }
-    .for h4{
+    .involve-card h4{
         margin: 16px auto 8px;
         font-size: 24px;
         text-align: center;
         line-height: 1.4;
     }
-    .for p{
+    .involve-card p{
         text-align: center;
         font-family: 'Inter', sans-serif;
         margin: 0 0 24px;
@@ -1313,44 +1314,44 @@
         line-height: 24px;
 
     }
-    .for a{
+    .involve-card a{
         text-align: center;
         text-decoration: none;
     }
-    .sec-4{
+    .favourite-topic-container{
         padding: 64px 0;
         background-color: #F9FAFE;
     }
-    .sec-4 .SEC-4{
+    .favourite-topic-container .favourite-topic{
         display: flex;
         flex-direction: column;
         margin: 64px 0px;
         max-width: 74rem;
         margin: 0 auto;
     }
-    .SEC-4 h2{
+    .favourite-topic h2{
         font-size: 40px;
         margin: 0px auto 64px;
     }
-    .SEC-4 h5{
+    .favourite-topic h5{
         font-weight: 400;
         margin: 0 auto;
         font-size: 16px;
         margin-bottom: 8px;
     }
-    .sec-4 a{
+    .favourite-topic-container a{
         text-align: center;
         text-decoration: none;
         margin: 24px auto 64px;
     }
-    .nn{
+    .topic-card-container{
         display: flex;
         flex-wrap: wrap;
         max-width: 1100px;
         margin: 0 auto;
         justify-content: center;
     }
-    .nn .learn{
+    .top-nav-container .topic-card{
         display: flex;
         background-color: rgb(255, 255, 255);
         border-radius: 16px;
@@ -1366,28 +1367,28 @@
         font-family: 'Inter', sans-serif;
         align-items: center;
     }
-    .nn img {
+    .topic-card-container img {
         margin-right: 32px;
     }
-    .learn:hover{
+    .topic-card:hover{
         transform: translateY(-5px);
     }
-    .learn .ll{
+    .course-name>*:first-child{
         font-size: 16px;
         line-height: 22px;
         font-weight: 500;
     }
-    .learn .uu{
+    .course-name>*:not(:first-child){
         font-size: 24px;
         line-height: 34px;
         font-weight: 600;
     }
-    .Section5 .H2{
+    .looking-for-container .looking-for{
         background-color: rgb(239, 242, 251);
         padding: 10px 0;
         margin: 0;
         padding: 64px 20px
-    } .Section5 h2{
+    } .looking-for-container h2{
         text-align: center;
         font-size: 40px;
         margin: 0px auto 64px;
@@ -1453,48 +1454,48 @@
         width: 416px;
         margin-bottom: 0px;
     }
-    .sec-6{
+    .community-content-container{
         background-color: #F9FAFE;
     }
-    .SEC-6{
+    .community-content{
         padding: 64px 20px;
         margin: 0 auto;
     }
-    .SEC-6 h2{
+    .community-content h2{
         font-size: 40px;
         margin: 0 auto 64px;
         text-align: center;
         max-width: 1000px;;
         line-height: 56px;
     }
-    .SEC-6 .sign{
+    .community-content .signup-form{
         display: flex;
         flex-direction: row;
     }
-    .sign h4{
+    .signup-form h4{
         font-size: 24px;
         line-height: 34px;
         font-weight: 600;
         margin: 0 0 8px;
     }
-    .sign p{
+    .signup-form p{
         font-family: 'Inter', sans-serif;
         line-height: 22px;
         font-size: 17px;
         color: #4d5b7c;
     }
-    .sign .up{
+    .signup-form .newsletter-infrastructure{
         padding: 40px 32px;
         margin: 0px 32px 0px 0px;
         background: white;
         border-radius: 8px;
         box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
     }
-    .up .input{
+    .newsletter-infrastructure .input{
         display: flex;
         flex-direction: row;
     }
-    .up input{
+    .newsletter-infrastructure input{
         padding: 16px;
         border-radius: 8px;
         width: 100%;
@@ -1515,43 +1516,43 @@
         font-weight: 700;
         border-radius: 8px;
     }
-    .sign .us{
+    .signup-form .socialmedia-pages{
         max-width: 528px;
         padding: 40px 32px;
         background: #9fddff;
         border-radius: 8px;
         box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
     }
-    .us .accounts{
+    .socialmedia-pages .accounts{
         margin: 16px 0 0;
     }
-    .us .accounts a{
+    .socialmedia-pages .accounts a{
         color: #4d5b7c;
         text-decoration: none;
     }
-    .us .accounts a:hover{
+    .socialmedia-pages .accounts a:hover{
         color: black;
         transition: color .2s;
     }
-    .sec-7{
+    .knowledge-aplication-container{
         background-color: #F9FAFE;
     }
-    .SEC-7{
+    .knowledge-aplication{
         padding: 64px 20px 128px 20px;
         margin: 0 auto;
     }
-    .SEC-7 .cards{
+    .knowledge-aplication .knowledge-aplication-card{
         display: flex;
         flex-direction: row;
     }
-    .SEC-7 h2{
+    .knowledge-aplication h2{
         font-size: 40px;
         margin: 0 auto 64px;
         text-align: center;
         max-width: 1000px;;
         line-height: 56px;
     }
-    .cards img{
+    .knowledge-aplication-card img{
         width: 100%;
         height: 73%;
         margin-bottom: 32px;
@@ -1569,60 +1570,60 @@
         color: #4d5b7c;
         margin: 0 64px 8px 0;
     }
-    .sec-8{
+    .webhosting-container{
         display: flex;
         padding: 64px 0;
         background-color: #F9FAFE;
     }
-    .SEC-8 {
+    .webhosting {
         display: flex;
         background: linear-gradient(rgb(0, 105, 255) 0%, rgb(0, 54, 172) 100%);
         max-width: 864px;
         margin: auto;
         border-radius: 24px;
     }
-    .SEC-8 div{
+    .webhosting div{
         padding: 32px 40px 32px 64px;
         color: #ffffff;
     }
-    .SEC-8 div h2{
+    .webhosting div h2{
         font-weight: 700;
         font-size: 32px;
         line-height: 40px;
         color: #ffffff;
         margin-bottom: 8px;
     }
-    .SEC-8 div p{
+    .webhosting div p{
         font-weight: 400;
         line-height: 24px;
         font-size: 16px;
         font-family: 'Inter', sans-serif;
         margin-bottom: 24px;
     }
-    .SEC-8 div a{
+    .webhosting div a{
         text-decoration: none;
         color: #ffffff;
     }
-    .sec-9{
+    .appreciation-message-container{
         padding: 120px 20px;
         background-color: #F9FAFE;
     }
-    .SEC-9{
+    .appreciation-message{
         background-image: url(https://www.digitalocean.com/_next/static/media/thank-you-banner.c4f5d24d.svg);
         background-color: #75EEFE;
         border-radius: 16px;
         padding: 64px 20px;
         margin: 64px auto;
     }
-    .SEC-9 h2{
+    .appreciation-message h2{
         font-size: 40px;
         line-height: 56px;
         text-align: center;
     }
-    .sec-10{
+    .opportunity-section-container{
         background-color: #F9FAFE;
     }
-    .SEC-10{
+    .opportunity-section{
         max-width: 1136px;
         width: 100%;
         padding: 0px 24px;
@@ -1631,7 +1632,7 @@
         grid-template-columns: repeat(auto-fill, 341px);
         gap: 32px;
     }
-    .SEC-10 .mm{
+    .opportunity-section .mm{
         display: flex;
         flex-direction: column;
         border-radius: 24px;
@@ -1639,10 +1640,10 @@
         box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
         margin-bottom: 30px;
     }
-    .SEC-10 img{
+    .opportunity-section img{
         border-radius: 24px;
     }
-    .mm .good{
+    .opportunity-card .good{
         padding: 32px 40px;
     }
     .good h5{
@@ -1660,10 +1661,10 @@
     .good .tt{
         margin-top: 24px;
     }
-    .sec-11{
+    .community-and-product-section{
         background-color: #F9FAFE;
     }
-    .SEC-11{
+    .community-and-product{
         max-width: 1136px;
         width: 100%;
         padding: 0px 24px;
@@ -1671,16 +1672,16 @@
         display: flex;
         flex-direction: column;
     }
-    .SEC-11 .se{
+    .community-section, .product-section{
         margin: 64px auto 0;
     }
-    .se h6{
+    .community-section h6, .product-section h6{
         text-align: center;
         font-size: 20px;
         line-height: 28px;
         font-weight: 500;
     }
-    .se .links{
+    .community-section .links, .product-section .links{
         display: flex;
         flex-direction: row;
         gap: 32px;
@@ -1698,14 +1699,14 @@
     .links a{
         color: #0069ff;
     }
-    .sec-12{
+    .developer-cloud-container{
         padding: 128px 0px;
         background-color: #F9FAFE;
     }
-    .SEEC-12{
+    .developer-cloud{
         background-color: #1433dc;
     }
-    .SEC-12{
+    .about-developer-cloud{
         display: grid;
         grid-template-columns: repeat(2, minmax(0px,1fr));
         color: white;
@@ -1715,36 +1716,36 @@
         gap: 32px;
         align-items: center;
     }
-    .wel{
+    .developer-cloud-text{
         display: flex;
         align-items: center;
     }
-    .Wel h4{
+    .developer-cloud-text h4{
         font-weight: 600;
         font-size: 24px;
         line-height: 32px;
         color: #ffffff;
     }
-    .Wel p{
+    .developer-cloud-text p{
         font-family: 'Inter', sans-serif;
         margin: 8px 0px 24px;
         line-height: 24px;
     }
-    .Wel a{
+    .developer-cloud-text a{
         color: #ffffff;
         text-decoration: none;
     }
-    .sec-12 .imgg img{
+    .developer-cloud-container .developer-cloud-img img{
         width: 528px;
         height: 297px;
         border-radius: 16px 16px 0 0;
     }
-    .SEEC-13{
+    .start-for-free-container{
         max-width: 1136px;
         margin: 0 auto;
         padding-top: 120px;
     }
-    .SEC-13{
+    .start-for-free{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1753,19 +1754,19 @@
         border-radius: 24px;
         box-shadow: rgba(11, 43, 158, 0.15) 0px 6px 20px -6px;
     }
-    .SEC-13 h5{
+    .start-for-free h5{
         font-weight: 700;
         font-size: 20px;
         line-height: 28px;
         margin-bottom: 8px;
     }
-    .SEC-13 .and{
+    .start-for-free .signup-token{
         font-size: 16px;
         font-family: 'Inter',sans-serif;
         max-width: 500px;
         line-height: 24px;
     }
-    .SEC-13 .a{
+    .start-for-free .get-started-btn{
         display: flex;
         justify-content: flex-end;
         align-items: end;
@@ -1774,7 +1775,7 @@
         margin-left: 230px; 
         margin-bottom: 8px;
     }
-    .SEC-13 a{
+    .start-for-free a{
         display: flex;
         align-items: center; 
         justify-content: flex-end;
@@ -1820,7 +1821,7 @@
         font-weight: 400;
         text-decoration: none;
     }
-    .footer-2{
+    .copyrightXsocial-media-handle{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1828,7 +1829,7 @@
         margin: 80px auto 0;
         padding: 0 24px;
     }
-    .footer-2 .llc{
+    .copyrightXsocial-media-handle .copyright{
         display: flex;
         flex-flow: row;
         align-items: center;
@@ -1837,16 +1838,16 @@
         font-size: 14px;
         color: #4d5b7c;
     }
-    .llc a{
+    .copyright a{
         text-decoration: none;
         color: #4d5b7c;
         font-family: 'Inter', sans-serif;
     }
-    .ACcounts {
+    .social-media-handle {
         display: flex;
         gap: 16px;
     }
-    .ACcounts a{
+    .social-media-handle a{
         color: #4d5b7c;
         text-decoration: none;
     }
